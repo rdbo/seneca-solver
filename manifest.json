@@ -1,0 +1,32 @@
+{
+    "manifest_version" : 2,
+    "name" : "Soneca",
+    "version" : "1.0",
+    "description" : "A question solver for the SenecaLearning web application",
+
+    "icons" : {
+        "32" : "icons/icon32.png",
+        "64" : "icons/icon64.png"
+    },
+
+    "background" : {
+        "scripts" : [
+            "common/jquery-3.6.0.js",
+            "background/webproxy.js",
+            "background/handler.js"
+        ]
+    },
+
+    "browser_action" : {
+        "default_icon" : "icons/icon32.png",
+        "default_title" : "Soneca",
+        "default_popup" : "foreground/index.html"
+    },
+
+    "permissions" : [
+        "proxy",
+        "activeTab",
+        "storage",
+        "*://*.senecalearning.com/*"
+    ]
+}

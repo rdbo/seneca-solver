@@ -1,0 +1,65 @@
+.header {
+    background-color: #290040;
+    text-align: center;
+    padding: 4px;
+    margin: 0;
+    border-bottom: #fff700 solid 2px;
+}
+
+.header h1 {
+    color: #ffffff;
+    font-size: 26px;
+    display: inline;
+}
+
+.header img {
+    width: 64px;
+    height: 64px;
+    vertical-align: middle;
+}
+
+.header h2 {
+    margin: 0 2px;
+    color: #dddddd;
+    font-size: 18px;
+}
+
+.content {
+    margin: 0;
+    padding: 8px;
+    background-color: #080029;
+    color: #ffffff;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+#solver-button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#solver-button {
+    width: 64px;
+    height: 64px;
+    padding: 10px;
+}
+
+.content h2 {
+    font-size: 14px;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    width: 280px;
+    font-family: "LCD Solid";
+}
+
+@font-face {
+    font-family: "LCD Solid";
+    src: url("fonts/LCD_Solid/LCD_Solid.ttf");
+}
